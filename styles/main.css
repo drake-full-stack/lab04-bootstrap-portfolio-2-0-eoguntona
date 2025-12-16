@@ -7,5 +7,25 @@ hr.custom-divider {
     background-color: pink;
     /* Ensure full visibility if other styles set opacity */
     opacity: 1; 
-  }
+}
   
+/* Make icons consistent with your design */
+i[data-lucide] {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+    vertical-align: middle;
+}
+
+/* Or for Material Icons */
+.material-icons {
+    font-size: 20px;
+    margin-right: 8px;
+    vertical-align: middle;
+}
+
+/* Custom colors and hover effects */
+.social-link:hover i {
+    color: var(--your-accent-color);
+    transform: scale(1.1);
+}
