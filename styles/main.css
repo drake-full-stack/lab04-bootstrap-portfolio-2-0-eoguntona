@@ -29,3 +29,24 @@ i[data-lucide] {
     color: var(--your-accent-color);
     transform: scale(1.1);
 }
+
+/* Keep Bootstrap's .btn behavior but change appearance 
+.btn-primary {
+    background: linear-gradient(45deg, pink, brown);
+    border: none;
+    /* Your custom styling 
+}
+*/
+
+/* Use Bootstrap classes but add your flair 
+.card:hover {
+    transform: translateY(-10px);
+    /* Your hover effects 
+
+*/
+:root {
+    --bs-primary: pink;
+    --bs-secondary: brown;
+    --bs-success: rgb(89, 183, 89);
+    /* This changes all Bootstrap components */
+}
