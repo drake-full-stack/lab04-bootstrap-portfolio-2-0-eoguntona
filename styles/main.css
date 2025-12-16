@@ -1,0 +1,11 @@
+hr.custom-divider {
+    /* Remove default border so height property works effectively */
+    border: none;
+    /* Set the desired thickness using height */
+    height: 20px; 
+    /* Set the background color */
+    background-color: pink;
+    /* Ensure full visibility if other styles set opacity */
+    opacity: 1; 
+  }
+  
